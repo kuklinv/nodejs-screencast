@@ -119,7 +119,7 @@ Note that it's technically possible that client sends arbitrary string as Cookie
 
 ### Proxy support
 
-[The WebSocket spec](http://tools.ietf.org/html/draft-hixie-thewebsocketprotocol) specifies instructions for User Agents to support proxied connections by implementing the HTTP CONNECT method.
+[The WebSocket spec](http://tools.ietf.org/html/draft-hixie-thewebsocketprotocol) specifies instructions for Index Agents to support proxied connections by implementing the HTTP CONNECT method.
 
 The AS3 Socket class doesn't implement this mechanism, which renders it useless for the scenarios where the user trying to open a socket is behind a proxy. 
 
